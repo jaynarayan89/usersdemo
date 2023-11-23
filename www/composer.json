@@ -1,0 +1,22 @@
+{
+    "name": "jaynarayan89/jdrive",
+    "description": "Sample project with fileupload and user registration",
+    "type": "project",
+    "require-dev": {
+        "fakerphp/faker": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jaynarayan89"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "firebase/php-jwt": "dev-main"
+    }
+}
